@@ -1,4 +1,4 @@
-# pm -- An Code Project Manager Written in Rust
+# pm -- A Code Project Manager Written in Rust
 
 A small project manager tool that helps you query and create projects based on custom template quickly.
 
