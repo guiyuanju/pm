@@ -1,0 +1,52 @@
+{
+  "editors": [
+    {
+      "name": "zed",
+      "open_command": "zed"
+    },
+    {
+      "name": "vscode",
+      "open_command": "code"
+    }
+  ],
+  "languages": [
+    {
+      "name": "rust",
+      "setup_command": "cargo new {name}"
+    },
+    {
+      "name": "go",
+      "setup_command": "mkdir {name} && cd {name} && go mod init {name} && cat << EOF > main.go\n{content}EOF"
+    },
+    {
+      "name": "python",
+      "setup_command": "mkdir {name} && cd {name} && cat << EOF > main.py\n{content}EOF"
+    }
+  ],
+  "templates": [
+    {
+      "name": "nannou",
+      "category": "/home/<YOUR NAME>/code/generative_arts",
+      "editor": "zed",
+      "language": "rust",
+      "tags": ["ga", "rust"],
+      "content": ""
+    },
+    {
+      "name": "leetcode_go",
+      "category": "/home/<YOUR NAME>/code/leetcode/go",
+      "editor": "zed",
+      "language": "go",
+      "tags": ["leetcode", "go"],
+      "content": "package main\n\nfunc main() {\n}"
+    },
+    {
+      "name": "leetcode_python",
+      "category": "/home/<YOUR NAME>/code/leetcode/python",
+      "editor": "zed",
+      "language": "python",
+      "tags": ["leetcode", "python"],
+      "content": "from typing import *\n"
+    }
+  ]
+}
