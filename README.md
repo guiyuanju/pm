@@ -54,3 +54,12 @@ note: see more `Cargo.toml` keys and their definitions at https://doc.rust-lang.
 # search and open matched project
 > pm p | grep test | awk '{print $2}' | xargs pm open
 ```
+
+## Roadmap
+
+- [ ] tags
+- [ ] cache
+- [ ] REST
+- [ ] DSL
+- [ ] TUI
+- [ ] Server mode
