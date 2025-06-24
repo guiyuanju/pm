@@ -54,3 +54,8 @@ Architechure:
      - folder with pm.toml == project
      - .config/pm/config.toml: global config like editor, template, langues, tags
      - .config/pm/cache: cache previous computed info for performance
+
+Template new Project
+Language replace using Project
+Project create with Language
+Project open with Editor
