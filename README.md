@@ -12,6 +12,11 @@ open <name>              | o                 open a project
 new  <name> <template>   | n                 create a project based on a template
 ```
 
+This is a tool that I use daily, usually from Raycast on MacOS or any other laucher that support creating custom scripts.
+Usage examples:
+- create a template for leetcode, use a command like `leetcode <id> <language>` to auto create a folder with necessary template code and open it in editor.
+- create a templete for one-shot local code experiment, like `playground <language>`, it auto create a folder with a random name, fill it and open it with eidtor, it's good for languages that needs some setup, making the "play" really smooth.
+
 ## Installation
 
 `git clone`, and `cargo build --release`, use `cargo install --path .` to install globally.
